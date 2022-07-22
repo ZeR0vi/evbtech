@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "47070442428",
+    "project_id": "vendesaula",
+    "storage_bucket": "vendesaula.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47070442428:android:c6e24bf291ce57555bb1b9",
+        "android_client_info": {
+          "package_name": "com.zer0jeager.vencesaula"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47070442428-5v5pe9j35l1llogcfl9cisromam8grgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFxhgA9KCBYVMuO4EbluqY5JjCKAoZg88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47070442428-5v5pe9j35l1llogcfl9cisromam8grgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
