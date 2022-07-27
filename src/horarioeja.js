@@ -9,8 +9,6 @@ import { Feather } from '@expo/vector-icons';
 export default function HorarioEja() {
 
 
-
-
   return (
     <KeyboardAvoidingView style={styles.container}>
       <View>

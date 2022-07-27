@@ -27,7 +27,7 @@ export default function AbrirEnsino() {
       cover={require('../../assents/pt.png')}
       name="Lingua Portuguesa"
       description=""
-      onPress={() => navigation.navigate('Português Fundamental')}
+      onPress={() => navigation.navigate('Português Ensino Medio')}
       
       />
 
@@ -35,7 +35,7 @@ export default function AbrirEnsino() {
       cover={require('../../assents/redaçao.png')}
       name="Redação"
       description=""
-      onPress={() => navigation.navigate('Redação Fundamental')}
+      onPress={() => navigation.navigate('Redação Ensino Medio')}
       
       />
 
@@ -43,7 +43,7 @@ export default function AbrirEnsino() {
       cover={require('../../assents/matematica.png')}
       name="Matemática"
       description=""
-      onPress={() => navigation.navigate('Matemática Fundamental')}
+      onPress={() => navigation.navigate('Matemática Ensino Medio')}
       
       />
 
@@ -51,22 +51,22 @@ export default function AbrirEnsino() {
       cover={require('../../assents/historia.png')}
       name="História"
       description=""
-      onPress={() => navigation.navigate('Historia Fundamental')}
+      onPress={() => navigation.navigate('Historia Ensino Medio')}
       
       />
     <Fundamentalensio 
       cover={require('../../assents/geografia.png')}
       name="Geografia"
       description=""
-      onPress={() => navigation.navigate('Geografia Fundamental')}
+      onPress={() => navigation.navigate('Geografia Ensino Medio')}
       
       />
 
     <Fundamentalensio 
       cover={require('../../assents/ciencias.png')}
-      name="Ciências"
+      name="Biologia"
       description=""
-      onPress={() => navigation.navigate('Ciências Fundamental')}
+      onPress={() => navigation.navigate('Biologia Ensino Medio')}
       
       />
     
@@ -74,7 +74,7 @@ export default function AbrirEnsino() {
       cover={require('../../assents/artes.png')}
       name="Artes"
       description=""
-      onPress={() => navigation.navigate('Artes Fundamental')}
+      onPress={() => navigation.navigate('Artes Ensino Medio')}
       
       />
 
@@ -82,10 +82,97 @@ export default function AbrirEnsino() {
       cover={require('../../assents/ingles.png')}
       name="Ingles"
       description=""
-      onPress={() => navigation.navigate('Inglês Fundamental')}
+      onPress={() => navigation.navigate('Inglês Ensino Medio')}
       
       />
 
+    <Fundamentalensio 
+      //cover={require('../../assents/ingles.png')}
+      name="Ciências Sociais"
+      description=""
+      onPress={() => navigation.navigate('Ciências Sociais')}
+      
+      />
+
+    <Fundamentalensio 
+      //cover={require('../../assents/ingles.png')}
+      name="Filosofia"
+      description=""
+      onPress={() => navigation.navigate('Filosofia')}
+      
+      />
+
+    <Fundamentalensio 
+      //cover={require('../../assents/ingles.png')}
+      name="Matemática Para o Enem"
+      description=""
+      onPress={() => navigation.navigate('Matemática para o Enem')}
+      
+      />
+
+    <Fundamentalensio 
+      //cover={require('../../assents/ingles.png')}
+      name="Fisica"
+      description=""
+      onPress={() => navigation.navigate('Fisica')}
+      
+      />  
+    
+    <Fundamentalensio 
+      //cover={require('../../assents/ingles.png')}
+      name="Projeto de Vida"
+      description=""
+      onPress={() => navigation.navigate('Projeto de Vida')}
+      
+      />
+    
+    <Fundamentalensio 
+      //cover={require('../../assents/ingles.png')}
+      name="Ciências e suas Tecnologias"
+      description=""
+      onPress={() => navigation.navigate('Ciências e suas Tecnologias')}
+      
+      />
+
+    <Fundamentalensio 
+      //cover={require('../../assents/ingles.png')}
+      name="Química"
+      description=""
+      onPress={() => navigation.navigate('Química')}
+      
+      />
+
+    <Fundamentalensio 
+      //cover={require('../../assents/ingles.png')}
+      name="Mundo do Trabalho"
+      description=""
+      onPress={() => navigation.navigate('Mundo do Trabalho')}
+      
+      />
+
+    <Fundamentalensio 
+      //cover={require('../../assents/ingles.png')}
+      name="Sociologia"
+      description=""
+      onPress={() => navigation.navigate('Sociologia')}
+      
+      />
+
+    <Fundamentalensio 
+      //cover={require('../../assents/ingles.png')}
+      name="Tecnologias"
+      description=""
+      onPress={() => navigation.navigate('Tecnologias')}
+      
+      />
+
+    <Fundamentalensio 
+      //cover={require('../../assents/ingles.png')}
+      name="Praticas Criativas"
+      description=""
+      onPress={() => navigation.navigate('Praticas Criativas')}
+      
+      />
     
     </View>
   
@@ -97,7 +184,7 @@ export default function AbrirEnsino() {
 const styles = StyleSheet.create({
     container:{
         backgroundColor: '#fff',
-        height: 1901
+   //     height: 1901
     },
     text:{
         fontSize: 25,

@@ -19,24 +19,25 @@ export default function Config() {
       <Text style={styles.text}>Exercícios</Text>
 
       <Fundamentalensio style={styles.level}
-      cover={require('../../assents/garotafundamental2.jpg')}
+      cover={require('../../assents/fundamental2.png')}
       name="Ensino Fundamental II"
       description="Clique para fazer exercícios da materia de sua escolha"
       onPress={() => navigation.navigate('Fundamental 2')}
       
       />
 
-      <EnsinoMedio style={styles.level}
-        cover={require('../../assents/garotoensinomedio.jpg')}
+      <Fundamentalensio style={styles.level}
+        cover={require('../../assents/ensinomedio.png')}
         name="Ensino Médio"
         description="Clique para fazer exercícios da materia de sua escolha"
         onPress={() => navigation.navigate('Ensino Medio')}
       />
 
-      <EnsinoMedio style={styles.level}
-        cover={require('../../assents/garotoensinomedio.jpg')}
+      <Fundamentalensio style={styles.level}
+        cover={require('../../assents/eja.png')}
         name="EJA"
         description="Clique para fazer exercícios da materia de sua escolha"
+        onPress={() => navigation.navigate('EJA')}
       />
     </View>
   );
@@ -55,5 +56,6 @@ const styles = StyleSheet.create({
   container:{
     backgroundColor: '#fff',
     height: 1001
+
   }
 })

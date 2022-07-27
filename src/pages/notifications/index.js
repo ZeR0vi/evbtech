@@ -29,7 +29,7 @@ export default function Notification() {
 
       <Text style={styles.b}>Ultimas Novidades</Text>
       <View>
-        <Image style={{width: 420, height: 250}} source={require('../../assents/not.png')} />
+        <Image style={{width: '100%', height: 250}} source={require('../../assents/not.png')} />
       </View>
    
       
