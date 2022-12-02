@@ -125,12 +125,15 @@ export default function Home() {
         </View>
 
         <View>
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ paddingLeft:15, }}>
+  
           <About
-          cover={require('../../assents/merenda.png')}
+          cover={require('../../assents/logo.png')}
           name="Sobre"
           description="Detalhes do E.V.B Tech"
           onPress={() => navigation.navigate('Sobre')}
           />
+        </ScrollView>
         </View>
 
 
@@ -216,11 +219,13 @@ const styles = StyleSheet.create({
   //  },
     textomain:{
       fontWeight: 'bold',
-      fontSize: 20
+      fontSize: 20,
+      paddingLeft: 10
     },
     merendatext:{
       fontWeight: 'bold',
-      fontSize: 20
+      fontSize: 20,
+      paddingLeft: 10
     },
     imageheader:{
       width: 80,

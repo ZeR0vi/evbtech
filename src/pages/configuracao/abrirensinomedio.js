@@ -1,6 +1,6 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View, Image, Linking } from 'react-native';
 import {ScrollView} from 'react-native-gesture-handler'
 
 
@@ -27,7 +27,7 @@ export default function AbrirEnsino() {
       cover={require('../../assents/pt.png')}
       name="Lingua Portuguesa"
       description=""
-      onPress={() => navigation.navigate('Português Ensino Medio')}
+      onPress={Pt}
       
       />
 
@@ -35,7 +35,7 @@ export default function AbrirEnsino() {
       cover={require('../../assents/redaçao.png')}
       name="Redação"
       description=""
-      onPress={() => navigation.navigate('Redação Ensino Medio')}
+      onPress={Red}
       
       />
 
@@ -43,7 +43,7 @@ export default function AbrirEnsino() {
       cover={require('../../assents/matematica.png')}
       name="Matemática"
       description=""
-      onPress={() => navigation.navigate('Matemática Ensino Medio')}
+      onPress={Mat}
       
       />
 
@@ -51,14 +51,14 @@ export default function AbrirEnsino() {
       cover={require('../../assents/historia.png')}
       name="História"
       description=""
-      onPress={() => navigation.navigate('Historia Ensino Medio')}
+      onPress={Hist}
       
       />
     <Fundamentalensio 
       cover={require('../../assents/geografia.png')}
       name="Geografia"
       description=""
-      onPress={() => navigation.navigate('Geografia Ensino Medio')}
+      onPress={Geo}
       
       />
 
@@ -66,7 +66,7 @@ export default function AbrirEnsino() {
       cover={require('../../assents/ciencias.png')}
       name="Biologia"
       description=""
-      onPress={() => navigation.navigate('Biologia Ensino Medio')}
+      onPress={Cie}
       
       />
     
@@ -74,7 +74,7 @@ export default function AbrirEnsino() {
       cover={require('../../assents/artes.png')}
       name="Artes"
       description=""
-      onPress={() => navigation.navigate('Artes Ensino Medio')}
+      onPress={Art}
       
       />
 
@@ -82,7 +82,7 @@ export default function AbrirEnsino() {
       cover={require('../../assents/ingles.png')}
       name="Ingles"
       description=""
-      onPress={() => navigation.navigate('Inglês Ensino Medio')}
+      onPress={Ing}
       
       />
 
@@ -179,6 +179,30 @@ export default function AbrirEnsino() {
     </View>  
     </ScrollView>
   );
+  function Pt(){
+    Linking.openURL('https://classroom.google.com/c/NDg4NjMxMTkwNjUw?cjc=y3mcfkf')
+  }
+  function Mat(){
+    Linking.openURL('https://classroom.google.com/c/NTM3NDk4OTQ0MDgy?cjc=u26vvjy')
+  }
+  function Hist(){
+    Linking.openURL('https://classroom.google.com/c/NDg4NjMxNDU2NjI3?cjc=k2kbjri')
+  }
+  function Cie(){
+    Linking.openURL('https://classroom.google.com/c/NDg4NjMzNDUyNDk4?cjc=xuhygzj')
+  }
+  function Art(){
+    Linking.openURL('https://classroom.google.com/c/NTI2MTIwNzUxMzE0?cjc=l6n2sby')
+  }
+  function Ing(){
+    Linking.openURL('https://classroom.google.com/c/NTI2MTIwNzI1MTA4?cjc=rmuyilw')
+  }
+  function Geo(){
+    Linking.openURL('https://classroom.google.com/c/NTI2MTIwNTczOTg4?cjc=lenndqq')
+  }
+  function Red(){
+    Linking.openURL('https://classroom.google.com/c/NTI2MTE2NDc2MTEw?cjc=k2kkfyr')
+  }
 }
 
 const styles = StyleSheet.create({

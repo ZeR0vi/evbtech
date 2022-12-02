@@ -43,7 +43,7 @@ export default function Notification() {
     <Recado
      /* cover={require('../../assents/me')}*/
       name="Atenção!"
-      description="Aplicativo do Venceslau lançado!"
+      description="Aplicativo EVB Digital lançado!"
       onPress={() => {}}
       
       />

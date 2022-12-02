@@ -1,6 +1,6 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View, Image, Linking } from 'react-native';
 import {ScrollView} from 'react-native-gesture-handler'
 
 
@@ -27,23 +27,16 @@ export default function Abrirfundamental() {
       cover={require('../../assents/pt.png')}
       name="Lingua Portuguesa"
       description=""
-      onPress={() => navigation.navigate('Português Fundamental')}
+      onPress={Pt}
       
       />
 
-    <Fundamentalensio 
-      cover={require('../../assents/redaçao.png')}
-      name="Redação"
-      description=""
-      onPress={() => navigation.navigate('Redação Fundamental')}
-      
-      />
 
     <Fundamentalensio 
       cover={require('../../assents/matematica.png')}
       name="Matemática"
       description=""
-      onPress={() => navigation.navigate('Matemática Fundamental')}
+      onPress={Mat}
       
       />
 
@@ -51,14 +44,14 @@ export default function Abrirfundamental() {
       cover={require('../../assents/historia.png')}
       name="História"
       description=""
-      onPress={() => navigation.navigate('Historia Fundamental')}
+      onPress={Hist}
       
       />
     <Fundamentalensio 
       cover={require('../../assents/geografia.png')}
       name="Geografia"
       description=""
-      onPress={() => navigation.navigate('Geografia Fundamental')}
+      onPress={Geo}
       
       />
 
@@ -66,7 +59,7 @@ export default function Abrirfundamental() {
       cover={require('../../assents/ciencias.png')}
       name="Ciências"
       description=""
-      onPress={() => navigation.navigate('Ciências Fundamental')}
+      onPress={Cie}
       
       />
     
@@ -74,7 +67,7 @@ export default function Abrirfundamental() {
       cover={require('../../assents/artes.png')}
       name="Artes"
       description=""
-      onPress={() => navigation.navigate('Artes Fundamental')}
+      onPress={Art}
       
       />
 
@@ -82,7 +75,7 @@ export default function Abrirfundamental() {
       cover={require('../../assents/ingles.png')}
       name="Ingles"
       description=""
-      onPress={() => navigation.navigate('Inglês Fundamental')}
+      onPress={Ing}
       
       />
 
@@ -92,6 +85,28 @@ export default function Abrirfundamental() {
     </View>  
     </ScrollView>
   );
+
+  function Pt(){
+    Linking.openURL('https://classroom.google.com/c/NTI2MTE4NDUzODI5?cjc=hti726y')
+  }
+  function Mat(){
+    Linking.openURL('https://classroom.google.com/c/NDg4NjMxMzk1MzAw?cjc=femgtqd')
+  }
+  function Hist(){
+    Linking.openURL('https://classroom.google.com/c/NDg4NjMxNDYxMDM4?cjc=kw43bsq')
+  }
+  function Cie(){
+    Linking.openURL('https://classroom.google.com/c/NTI2MTIwNzY1NDU1?cjc=ojca4sm')
+  }
+  function Art(){
+    Linking.openURL('https://classroom.google.com/c/NDg4NjMzMzYyMDcy?cjc=yf3hli5')
+  }
+  function Ing(){
+    Linking.openURL('https://classroom.google.com/c/NTI2MTIwODE2NzMz?cjc=hk7ce75')
+  }
+  function Geo(){
+    Linking.openURL('https://classroom.google.com/c/NTI2MTIwNzk0ODg2?cjc=znh54ht')
+  }
 }
 
 const styles = StyleSheet.create({

@@ -38,7 +38,7 @@ export default function Horarioano2() {
         <Image style={{width: '100%', height: 150}} source={require('./assents/pedradalua.png')}/>
 
         <Text style={{fontWeight: 'bold', fontSize: 20, paddingLeft: 15}}>8º Diamante</Text>
-        <Image style={{width: '100%', height: 150}} source={require('./assents/platina.png')}/>
+        <Image style={{width: '100%', height: 150}} source={require('./assents/diamante.png')}/>
 
         <Text style={{fontWeight: 'bold', fontSize: 20, paddingLeft: 15}}>9º Ametista</Text>
         <Image style={{width: '100%', height: 150}} source={require('./assents/platina.png')}/>

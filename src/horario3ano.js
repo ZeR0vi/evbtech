@@ -1,14 +1,12 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image, Linking } from 'react-native';
-import { ScrollView, ReactButton, TouchableOpacity } from 'react-native-gesture-handler'
+import { StyleSheet, Text, View, Image, Linking} from 'react-native';
+import { ScrollView, ReactButton, TouchableOpacity} from 'react-native-gesture-handler'
 import { backgroundColor } from 'react-native/Libraries/Components/View/ReactNativeStyleAttributes';
 import { Button } from 'react-native-web';
 import { Feather } from '@expo/vector-icons';
 
 export default function Horarioano3() {
-
-
 
 
   return (
@@ -18,7 +16,12 @@ export default function Horarioano3() {
       <ScrollView vertical showsVerticalScrollIndicator={false}>  
       <View style={styles.horariosseparados}>
         <Text style={{fontWeight: 'bold', fontSize: 20, paddingLeft: 15}}>1º Jade</Text>
+
+
+        
         <Image style={{width: '100%', height: 150}} source={require('./assents/jade.png')}/>
+
+
 
         <Text style={{fontWeight: 'bold', fontSize: 20, paddingLeft: 15}}>1º Bronze</Text>
         <Image style={{width: '100%', height: 150}} source={require('./assents/bronze.png')}/>
